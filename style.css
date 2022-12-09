@@ -1,0 +1,78 @@
+body{
+   
+    text-align: center;
+}
+
+#welcome { 
+    z-index: 9;
+     bottom: 0;
+      background: linear-gradient(#BD581E 0%, #21de44 100%);
+       display: table;
+        width: 100%;
+         height: 100%; 
+}
+h1 { 
+    font-size: 40px;
+     font-family: sans-serif;
+      font-weight: 300; 
+    }
+    #name {
+         font-size: 50px;
+          font-family: cursive;
+         }
+         #bio {
+             font-family: cursive;
+              padding: 50px; 
+            }
+            .line { 
+                height: 6px;
+                 background-color: #000;
+                  width: 70px;
+                   margin: 8px auto;
+                 }
+                 .parallax-inner {
+                     display: table-cell;
+                      vertical-align: middle;
+                     }
+                     p{
+                         text-align: left;
+                          margin-left: 150px;
+                           margin-right: 150px;
+                
+                         }
+.my_nav_bar{
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}  
+
+.links:hover{
+    background-color: rgb(199, 3, 3);
+    font-size: 25px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}  
+.articulo:hover{
+    color: rgba(59, 2, 2, 0.994);
+} 
+#textos a{
+    text-decoration: underline !important;
+    color: #5107a5 !important;
+    font-size: 30px !important;
+    text-transform: uppercase !important;
+}  
+#contacto{
+    background: #4bb015;
+} 
+#contacto iframe{
+    width: 100%;
+}
+.contacto1 h3{
+    display: inline;
+}
+.contacto1 a{
+    color: #ffa136;
+    text-shadow: none;
+}             
